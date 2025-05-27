@@ -489,7 +489,7 @@ End Sub
 
 ## Common Pitfalls
 
-1. **Insufficient Delays**: Always add appropriate Sleep() calls
+1. **Insufficient Delays**: Always add appropriate Sleep() calls <---- You'll need to alter the Sleep() call to perfect it, ik its not great
 2. **No Error Handling**: External programs can be unpredictable
 3. **No Kill Switch**: Always provide a way to stop the automation
 4. **Hard-coded Values**: Make your code flexible with variables
